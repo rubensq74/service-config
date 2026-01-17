@@ -1,6 +1,8 @@
 logback:
   property: Logback prod
 logging:
+  file:
+    name: logs/pedido-microservice-prod.log
   logback:
     rolling policy:
       max-history: 20
