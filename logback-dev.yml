@@ -1,6 +1,8 @@
 logback:
   property: Logback profile Dev
 logging:
+  file:
+    name: logs/pedido-microservice-dev.log
   logback:
     rolling policy:
       max-history: 7
