@@ -1,0 +1,10 @@
+logback:
+  property: Logback Dev
+logging:
+  logback:
+    rolling policy:
+      max-history: 7
+      max-file-size: 10MB
+
+
+

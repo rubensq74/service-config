@@ -1,0 +1,7 @@
+logback:
+  property: Logback prod
+logging:
+  logback:
+    rolling policy:
+      max-history: 20
+      max-file-size: 20MB
